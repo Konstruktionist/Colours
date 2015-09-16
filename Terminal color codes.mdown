@@ -1,0 +1,50 @@
+# ANSI/VT100 Terminal Control Escape Sequences
+### Bash & grep color codes 
+                              
+#### The set display attributes list:
+
+```
+0 Reset all attributes
+1 Bright/Bold
+2 Dim
+4 Underscore 
+5 Blink
+7 Reverse
+8 Hidden
+```
+
+##### Foreground Colours
+
+```
+30 Black
+31 Red
+32 Green
+33 Yellow
+34 Blue
+35 Magenta
+36 Cyan
+37 White
+```
+
+##### Background Colours
+
+```
+40 Black
+41 Red
+42 Green
+43 Yellow
+44 Blue
+45 Magenta
+46 Cyan
+47 White
+```
+
+```bash
+$ export GREP_COLOR='1;30;43'
+```
+
+means Bright/Bold (1) yellow (43) background and black (30) text
+
+![][1]
+
+[1]: http://3.bp.blogspot.com/_yqqceaP4wog/Sbany19_b9I/AAAAAAAABxM/uiRpzn3_Sac/s400/grep-color-linux-2.JPG
