@@ -1,7 +1,7 @@
 " Vim colorscheme
 " An adaptation of the Slate theme included with vim
 " Maintained by Peter van Peursem
-"     Version 1.3 - 27-09-2015
+"     Version 1.5 - 16-02-2016
 "
 " All color-values can be found with python script at:
 " https://github.com/eikenb/terminal-colors
@@ -20,7 +20,7 @@ let g:colors_name="Kafka"
 " --------------------------------
 " Editor settings
 " --------------------------------
-hi Normal          ctermfg=231   ctermbg=NONE      cterm=NONE        guifg=#ffffff     guibg=#2a303b        gui=NONE
+hi Normal          ctermfg=253   ctermbg=NONE      cterm=NONE        guifg=#dadada     guibg=#2a303b        gui=NONE
 hi Cursor                                          cterm=reverse     guifg=#909090     guibg=#606060        gui=NONE
 hi CursorLine      ctermfg=NONE  ctermbg=237       cterm=NONE        guifg=NONE        guibg=#38404d        gui=NONE
 hi LineNr          ctermfg=8     ctermbg=NONE      cterm=NONE        guifg=#737373     guibg=NONE           gui=NONE
@@ -31,7 +31,7 @@ hi CursorLineNR    ctermfg=11    ctermbg=NONE      cterm=NONE        guifg=#fae3
 " -----------------
 hi CursorColumn   ctermfg=NONE      ctermbg=7         cterm=NONE        guifg=NONE        guibg=#909090     gui=NONE
 hi FoldColumn     ctermfg=239       ctermbg=NONE      cterm=NONE        guifg=#4e4e4e     guibg=NONE        gui=NONE
-hi SignColumn     ctermfg=245       ctermbg=NONE      cterm=NONE        guifg=#8a8a8a     guibg=NONE       gui=NONE
+hi SignColumn     ctermfg=245       ctermbg=NONE      cterm=NONE        guifg=#8a8a8a     guibg=NONE			gui=NONE
 hi Folded         ctermfg=239       ctermbg=NONE      cterm=NONE        guifg=#4e4e4e     guibg=NONE        gui=NONE
 
 " -------------------------
@@ -196,10 +196,16 @@ hi cssColor       ctermfg=111       ctermbg=NONE      cterm=NONE        guifg=#8
 " --------------------------------
 " Markdown highlighting
 " --------------------------------
+hi markdownBold	ctermfg=178			ctermbg=NONE      cterm=NONE        guifg=#d7af00     guibg=NONE        gui=NONE
+hi markdownItalic	ctermfg=178			ctermbg=NONE      cterm=NONE        guifg=#d7af00     guibg=NONE        gui=NONE
+hi markdownBoldItalic	ctermfg=178	ctermbg=NONE      cterm=NONE        guifg=#d7af00     guibg=NONE        gui=NONE
 hi markdownCode    ctermfg=6        ctermbg=NONE      cterm=NONE        guifg=#73a5c8     guibg=NONE        gui=NONE
 hi markdownError   ctermfg=9        ctermbg=NONE      cterm=NONE        guifg=#d14548     guibg=NONE        gui=NONE
 hi markdownCodeBlock ctermfg=6      ctermbg=NONE      cterm=NONE        guifg=#73a5c8     guibg=NONE        gui=NONE
-hi markdownHeadingDelimiter ctermfg=238   ctermbg=NONE   cterm=NONE     guifg=#444444     guibg=NONE        gui=NONE
+hi markdownFencedCodeBlock ctermfg=6	ctermbg=NONE	cterm=NONE        guifg=#73a5c8     guibg=NONE        gui=NONE
+hi markdownInlineCode ctermfg=6		ctermbg=NONE      cterm=NONE        guifg=#73a5c8     guibg=NONE        gui=NONE
+
+hi markdownHeadingDelimiter ctermfg=94 ctermbg=NONE   cterm=NONE        guifg=#875f00     guibg=NONE        gui=NONE
 
 " --------------------------------
 " Ruby highlighting
