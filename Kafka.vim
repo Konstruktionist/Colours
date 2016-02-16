@@ -204,7 +204,6 @@ hi markdownError   ctermfg=9        ctermbg=NONE      cterm=NONE        guifg=#d
 hi markdownCodeBlock ctermfg=6      ctermbg=NONE      cterm=NONE        guifg=#73a5c8     guibg=NONE        gui=NONE
 hi markdownFencedCodeBlock ctermfg=6	ctermbg=NONE	cterm=NONE        guifg=#73a5c8     guibg=NONE        gui=NONE
 hi markdownInlineCode ctermfg=6		ctermbg=NONE      cterm=NONE        guifg=#73a5c8     guibg=NONE        gui=NONE
-
 hi markdownHeadingDelimiter ctermfg=94 ctermbg=NONE   cterm=NONE        guifg=#875f00     guibg=NONE        gui=NONE
 
 " --------------------------------
