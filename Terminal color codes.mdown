@@ -43,7 +43,7 @@
 $ export GREP_COLOR='1;30;43'
 ```
 
-means Bright/Bold (1) yellow (43) background and black (30) text
+means Bright/Bold (1) black (30) text and yellow (43) background
 
 ![][1]
 
