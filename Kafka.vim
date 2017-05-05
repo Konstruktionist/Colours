@@ -1,7 +1,7 @@
 " Vim colorscheme
 " An adaptation of the Slate theme included with vim
 " Maintained by Peter van Peursem
-"     Version 2.5 - 03-04-2017
+"     Version 3.3 - 05-05-2017
 "
 " All color-values can be found with python script at:
 " https://github.com/eikenb/terminal-colors
@@ -20,11 +20,11 @@ let g:colors_name="Kafka"
 " --------------------------------
 " Editor settings
 " --------------------------------
-hi Normal         ctermfg=253    ctermbg=NONE   cterm=NONE        guifg=#dadada  guibg=#2a303b  gui=NONE
-hi Cursor         ctermfg=0      ctermbg=15     cterm=NONE        guifg=#000000  guibg=#eeeeee  gui=NONE
-hi CursorLine     ctermfg=NONE   ctermbg=237    cterm=NONE        guifg=NONE     guibg=#38404d  gui=NONE
-hi LineNr         ctermfg=8      ctermbg=NONE   cterm=NONE        guifg=#737373  guibg=NONE     gui=NONE
-hi CursorLineNR   ctermfg=11     ctermbg=NONE   cterm=NONE        guifg=#fae3a0  guibg=NONE     gui=NONE
+hi Normal         ctermfg=253     ctermbg=NONE    cterm=NONE        guifg=#dadada   guibg=#2a303b   gui=NONE
+hi Cursor         ctermfg=NONE    ctermbg=231     cterm=NONE        guifg=NONE      guibg=#ffffff   gui=NONE
+hi CursorLine     ctermfg=NONE    ctermbg=237     cterm=NONE        guifg=NONE      guibg=#38404d   gui=NONE
+hi LineNr         ctermfg=8       ctermbg=NONE    cterm=NONE        guifg=#737373   guibg=NONE      gui=NONE
+hi CursorLineNR   ctermfg=11      ctermbg=NONE    cterm=NONE        guifg=#fae3a0   guibg=NONE      gui=NONE
 
 " -----------------
 " - Number column -
@@ -37,8 +37,8 @@ hi Folded         ctermfg=248    ctermbg=239    cterm=NONE        guifg=#a8a8a8 
 " -------------------------
 " - Window/Tab delimiters -
 " -------------------------
-hi VertSplit      ctermfg=244    ctermbg=7      cterm=NONE        guifg=#808080  guibg=#909090  gui=NONE
-hi ColorColumn    ctermfg=NONE   ctermbg=7      cterm=NONE        guifg=NONE     guibg=#909090  gui=NONE
+hi VertSplit      ctermfg=244    ctermbg=244    cterm=NONE        guifg=#808080  guibg=#808080  gui=NONE
+hi ColorColumn    ctermfg=NONE   ctermbg=8      cterm=NONE        guifg=NONE     guibg=#737373  gui=NONE
 hi TabLine        ctermfg=245    ctermbg=NONE   cterm=NONE        guifg=#8a8a8a  guibg=NONE     gui=NONE
 hi TabLineFill    ctermfg=239    ctermbg=NONE   cterm=NONE        guifg=#4e4e4e  guibg=NONE     gui=NONE
 hi TabLineSel     ctermfg=112    ctermbg=NONE   cterm=NONE        guifg=#5f8700  guibg=NONE     gui=NONE
@@ -46,15 +46,15 @@ hi TabLineSel     ctermfg=112    ctermbg=NONE   cterm=NONE        guifg=#5f8700 
 " -------------------------------
 " - File Navigation / Searching -
 " -------------------------------
-hi Directory   ctermfg=6      ctermbg=NONE   cterm=NONE        guifg=#73a5c8  guibg=NONE     gui=NONE
-hi Search      ctermfg=239    ctermbg=11     cterm=NONE        guifg=#303030  guibg=#fae3a0  gui=NONE
-hi IncSearch   ctermfg=235    ctermbg=208    cterm=NONE        guifg=#262626  guibg=#ff8700  gui=NONE
+hi Directory    ctermfg=12     ctermbg=NONE  cterm=NONE        guifg=#8ca1af  guibg=NONE     gui=NONE
+hi Search       ctermfg=232    ctermbg=10    cterm=NONE        guifg=#080808  guibg=#6d7f3f  gui=NONE
+hi IncSearch    ctermfg=231    ctermbg=2     cterm=NONE        guifg=#ffffff  guibg=#75a304  gui=NONE
 
 " -----------------
 " - Prompt/Status -
 " -----------------
-hi StatusLine     ctermfg=0      ctermbg=7      cterm=NONE        guifg=NONE     guibg=#909090  gui=NONE
-hi StatusLineNC   ctermfg=NONE   ctermbg=238    cterm=NONE        guifg=NONE     guibg=#444444  gui=NONE
+hi StatusLine     ctermfg=NONE   ctermbg=8      cterm=NONE        guifg=NONE     guibg=#909090  gui=NONE
+hi StatusLineNC   ctermfg=8      ctermbg=7      cterm=NONE        guifg=#909090  guibg=#444444  gui=NONE
 hi WildMenu       ctermfg=0      ctermbg=6      cterm=NONE        guifg=#202020  guibg=#73a5c8  gui=NONE
 hi Question       ctermfg=10     ctermbg=NONE   cterm=NONE        guifg=#b6c2aa  guibg=NONE     gui=NONE
 hi Title          ctermfg=3      ctermbg=NONE   cterm=bold        guifg=#fbc692  guibg=NONE     gui=NONE
@@ -117,7 +117,7 @@ hi PreProc         ctermfg=9        ctermbg=NONE      cterm=NONE        guifg=#c
 hi Include         ctermfg=9        ctermbg=NONE      cterm=NONE        guifg=#d14548     guibg=NONE        gui=NONE
 hi Define          ctermfg=3        ctermbg=NONE      cterm=NONE        guifg=#fbc692     guibg=NONE        gui=NONE
 hi Macro           ctermfg=208      ctermbg=NONE      cterm=NONE        guifg=#ff8700     guibg=NONE        gui=NONE
-hi PreCondit       ctermfg=69       ctermbg=NONE      cterm=NONE        guifg=#0f829d     guibg=NONE        gui=NONE
+hi PreCondit       ctermfg=110      ctermbg=NONE      cterm=NONE        guifg=#8faed3     guibg=NONE        gui=NONE
 
 hi Type            ctermfg=73       ctermbg=NONE      cterm=NONE        guifg=#5fafaf     guibg=NONE        gui=NONE
 hi StorageClass    ctermfg=11       ctermbg=NONE      cterm=NONE        guifg=#fae3a0     guibg=NONE        gui=NONE
@@ -147,14 +147,24 @@ hi PmenuThumb      ctermfg=NONE     ctermbg=7         cterm=NONE        guifg=NO
 " --------------------------------
 " Spelling
 " --------------------------------
-hi SpellBad        ctermfg=231      ctermbg=161       cterm=NONE        guifg=NONE     guibg=NONE     gui=undercurl
-hi SpellCap        ctermfg=231      ctermbg=25        cterm=NONE        guifg=NONE     guibg=NONE     gui=undercurl
-hi SpellLocal      ctermfg=231      ctermbg=92        cterm=NONE        guifg=NONE     guibg=NONE     gui=undercurl
-hi SpellRare       ctermfg=231      ctermbg=81        cterm=NONE        guifg=NONE     guibg=NONE     gui=undercurl
+hi SpellBad        ctermfg=160      ctermbg=NONE      cterm=underline        guifg=NONE     guibg=NONE     gui=undercurl
+hi SpellCap        ctermfg=33       ctermbg=NONE      cterm=underline        guifg=NONE     guibg=NONE     gui=undercurl
+hi SpellLocal      ctermfg=51       ctermbg=NONE      cterm=underline        guifg=NONE     guibg=NONE     gui=undercurl
+hi SpellRare       ctermfg=81       ctermbg=NONE      cterm=underline        guifg=NONE     guibg=NONE     gui=undercurl
+
 
 "--------------------------------------------------------------------
 " Specific settings
 "--------------------------------------------------------------------
+
+" --------------------------------
+" Vim highlighting
+" --------------------------------
+hi vimIsCommand     ctermfg=187     ctermbg=NONE   cterm=NONE        guifg=#d7d7af     guibg=NONE      gui=NONE
+hi vimFunction      ctermfg=186     ctermbg=NONE   cterm=NONE        guifg=#d7d787     guibg=NONE      gui=NONE
+hi vimCommentTitle  ctermfg=15      ctermbg=13     cterm=NONE        guifg=#fffffe     guibg=#aa88aa   gui=NONE
+hi helpNote         ctermfg=15      ctermbg=12     cterm=NONE        guifg=#fffffe     guibg=#6194bc   gui=NONE
+hi helpWarning      ctermfg=15      ctermbg=9      cterm=NONE        guifg=#fffffe     guibg=#f2797b   gui=NONE
 
 " --------------------------------
 " Git highlighting
@@ -165,10 +175,10 @@ hi gitCommitSummary  ctermfg=6      ctermbg=NONE      cterm=NONE        guifg=#7
 " --------------------------------
 " git gutter
 " --------------------------------
-hi GitGutterAdd    ctermfg=34       ctermbg=NONE      cterm=NONE        guifg=#00af00     guibg=NONE        gui=NONE
-hi GitGutterChange ctermfg=5        ctermbg=NONE      cterm=NONE        guifg=#d743da     guibg=NONE        gui=NONE
-hi GitGutterDelete ctermfg=1        ctermbg=NONE      cterm=NONE        guifg=#b91e2e     guibg=NONE        gui=NONE
-hi GitGutterChangeDelete ctermfg=13 ctermbg=NONE      cterm=NONE        guifg=#87314e     guibg=NONE        gui=NONE
+hi GitGutterAdd    ctermfg=34       ctermbg=NONE      cterm=bold        guifg=#00af00     guibg=NONE        gui=bold
+hi GitGutterChange ctermfg=5        ctermbg=NONE      cterm=bold        guifg=#d743da     guibg=NONE        gui=bold
+hi GitGutterDelete ctermfg=1        ctermbg=NONE      cterm=bold        guifg=#b91e2e     guibg=NONE        gui=bold
+hi GitGutterChangeDelete ctermfg=13 ctermbg=NONE      cterm=bold        guifg=#87314e     guibg=NONE        gui=bold
 
 " --------------------------------
 " C highlighting
